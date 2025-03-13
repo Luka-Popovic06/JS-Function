@@ -3,7 +3,7 @@
 const naslov = "JavaScript za početnike";
 const autor = "Ivan Ivić";
 const godinaIzdavanja = 2022;
-const cena = 25;
+let cena = 25;
 const stanje = "nova";
 const zanr = "tehnologija";
 const naStanju = true;
@@ -22,3 +22,11 @@ function calculateBookAge(sadasnjaGodina) {
   return starost;
 }
 calculateBookAge(2027);
+
+/*Function-3*/
+function changeBookPrice(novaCena) {
+  cena = novaCena;
+  console.log(cena);
+  return cena;
+}
+changeBookPrice(200);
