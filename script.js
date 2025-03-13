@@ -4,7 +4,7 @@ const naslov = "JavaScript za početnike";
 const autor = "Ivan Ivić";
 const godinaIzdavanja = 2022;
 let cena = 25;
-const stanje = "nova";
+let stanje = "nova";
 const zanr = "tehnologija";
 const naStanju = true;
 
@@ -30,3 +30,10 @@ function changeBookPrice(novaCena) {
   return cena;
 }
 changeBookPrice(200);
+
+/*Function-4*/
+function changeBookState(novoStanje) {
+  stanje = novoStanje;
+  return stanje;
+}
+changeBookState("polovna");
