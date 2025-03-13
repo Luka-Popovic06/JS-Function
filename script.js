@@ -6,7 +6,7 @@ const godinaIzdavanja = 2022;
 let cena = 25;
 let stanje = "nova";
 const zanr = "tehnologija";
-const naStanju = true;
+let naStanju = true;
 
 /* Function-1*/
 function getBookInfo() {
@@ -40,10 +40,21 @@ changeBookState("polovna");
 
 /*Function-5*/
 function isInStock() {
-  if (naStanju === true) {
+  if ((naStanju = true)) {
     return true;
   } else {
     return false;
   }
 }
 isInStock();
+
+/*Function-6*/
+function toggleStockStatus() {
+  if ((naStanju = true)) {
+    naStanju = false;
+  } else {
+    naStanju = true;
+  }
+  console.log(naStanju);
+}
+toggleStockStatus();
