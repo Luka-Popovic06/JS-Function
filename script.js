@@ -1,5 +1,5 @@
 "use strict";
-/* Zadatak-1 */
+/* ZADATAK-1 */
 const naslov = "JavaScript za početnike";
 const autor = "Ivan Ivić";
 const godinaIzdavanja = 2022;
@@ -65,3 +65,13 @@ function printBookDetails() {
     "Naslov: JavaScript za početnike, Autor: Ivan Ivić, Godina izdavanja: 2022, Cijena: 25, Stanje: nova, Žanr: tehnologija, Dostupna na stanju: Da/Ne";
 }
 printBookDetails();
+
+/* ZADATAK-2 */
+const name = "dragon";
+const health = 100;
+const energy = 99;
+const level = 12;
+const experience = 30;
+const speed = 250;
+const attackPower = 54;
+const movement = "walking";
