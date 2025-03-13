@@ -58,3 +58,10 @@ function toggleStockStatus() {
   console.log(naStanju);
 }
 toggleStockStatus();
+
+/*Function-7*/
+function printBookDetails() {
+  const print =
+    "Naslov: JavaScript za početnike, Autor: Ivan Ivić, Godina izdavanja: 2022, Cijena: 25, Stanje: nova, Žanr: tehnologija, Dostupna na stanju: Da/Ne";
+}
+printBookDetails();
