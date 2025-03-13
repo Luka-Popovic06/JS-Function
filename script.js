@@ -15,3 +15,10 @@ function getBookInfo() {
   return informacije;
 }
 getBookInfo();
+
+/* Function-2*/
+function calculateBookAge(sadasnjaGodina) {
+  const starost = sadasnjaGodina - godinaIzdavanja;
+  return starost;
+}
+calculateBookAge(2027);
