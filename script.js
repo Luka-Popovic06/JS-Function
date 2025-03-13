@@ -37,3 +37,13 @@ function changeBookState(novoStanje) {
   return stanje;
 }
 changeBookState("polovna");
+
+/*Function-5*/
+function isInStock() {
+  if (naStanju === true) {
+    return true;
+  } else {
+    return false;
+  }
+}
+isInStock();
