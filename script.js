@@ -75,3 +75,11 @@ let experience = 30;
 let speed = 250;
 let attackPower = 54;
 let movement = "walking";
+/* PISANJE FUNKCIJA */
+/*8*/
+function logStats() {
+  const info = `Name:${name}, Health:${health}, Energy:${energy}, Level:${level}, Experience:${experience}, Speed:${speed}, Attack Power:${attackPower}, Movement:${movement} `;
+  console.log(info);
+  return info;
+}
+logStats();
