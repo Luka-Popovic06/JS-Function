@@ -40,7 +40,7 @@ changeBookState("polovna");
 
 /*Function-5*/
 function isInStock() {
-  if ((naStanju = true)) {
+  if (naStanju) {
     return true;
   } else {
     return false;
@@ -50,7 +50,7 @@ isInStock();
 
 /*Function-6*/
 function toggleStockStatus() {
-  if ((naStanju = true)) {
+  if (naStanju) {
     naStanju = false;
   } else {
     naStanju = true;
@@ -68,10 +68,10 @@ printBookDetails();
 
 /* ZADATAK-2 */
 const name = "dragon";
-const health = 100;
-const energy = 99;
-const level = 12;
-const experience = 30;
-const speed = 250;
-const attackPower = 54;
-const movement = "walking";
+let health = 100;
+let energy = 99;
+let level = 12;
+let experience = 30;
+let speed = 250;
+let attackPower = 54;
+let movement = "walking";
