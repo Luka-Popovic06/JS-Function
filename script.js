@@ -83,3 +83,17 @@ function logStats() {
   return info;
 }
 logStats();
+
+/*9*/
+function fly() {
+  if (movement === "walking") {
+    movement = "flying";
+    speed = speed + 50;
+    const text = `Dragon is now flying, current speed is ${speed}.`;
+    console.log(text);
+  } else {
+    const texTwo = "Monster is already flying.";
+    console.log(texTwo);
+  }
+}
+fly();
