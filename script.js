@@ -97,3 +97,17 @@ function fly() {
   }
 }
 fly();
+
+/*10*/
+function walk() {
+  if (movement === "flying") {
+    movement = "walkig";
+    speed = speed - 50;
+    const textThree = `Monster is now walkig, current speed is ${speed}.`;
+    console.log(textThree);
+  } else {
+    const textFour = "Monster is already walkig.";
+    console.log(textFour);
+  }
+}
+walk();
