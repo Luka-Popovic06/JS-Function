@@ -132,3 +132,11 @@ function attack(broj) {
   checkStats();
 }
 attack(20);
+
+/*12*/
+function heal() {
+  health = health + 100;
+  energy = energy + 100;
+  logStats();
+}
+heal();
