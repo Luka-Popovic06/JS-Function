@@ -111,3 +111,24 @@ function walk() {
   }
 }
 walk();
+
+/*11*/
+function attack(broj) {
+  if (energy < 30) {
+    const textFive = "Don't have enough energy to attack!";
+    console.log(textFive);
+    return;
+  } else if (broj < attackPower) {
+    const textSix = "Monster attacked successfully!";
+    console.log(textSix);
+    experience = experience + 50;
+    energy = energy - 50;
+  } else if (broj > attackPower) {
+    const textSeven = "Monster failed to attack!";
+    console.log(textSeven);
+    energy = energy - 70;
+    health = health - 50;
+  }
+  checkStats();
+}
+attack(20);
