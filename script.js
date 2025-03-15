@@ -140,3 +140,17 @@ function heal() {
   logStats();
 }
 heal();
+
+/*13*/
+function checkStats() {
+  if (health < 1) {
+    const textEight = "Monster died. GAME OVER";
+    console.log(textEight);
+    return;
+  } else if (experience > 100) {
+    level = level + 1;
+    const newExperience = experience - 100;
+    console.log(newExperience);
+  }
+}
+checkStats();
