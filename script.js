@@ -154,3 +154,7 @@ function checkStats() {
   }
 }
 checkStats();
+//Variables 3
+const ime = "Lazar";
+let prezime = "Vuckovic";
+prezime = "Petrovic";
